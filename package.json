@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node loader.js",
-    "deploy": "npm run build && gcff client push express <FUNCTION_NAME> out/index.js --manifest=package.json"
+    "deploy": "npm run build && gcff client push express <FUNCTION_NAME> out/index.js --ws --manifest=package.json"
   },
   "keywords": [],
   "author": "",
